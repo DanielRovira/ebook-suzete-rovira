@@ -19,6 +19,10 @@ body {
     background-color: var(--background);
 }
 
+/* section {
+    scroll-margin-top: -10vh;
+} */
+
 .bodyHeader {
     display: flex;
     width: 100%;
