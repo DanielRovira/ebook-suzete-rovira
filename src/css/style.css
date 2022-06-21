@@ -45,6 +45,7 @@ header img {
     height: 70vh;
     padding: 1vh;
     /* justify-content: center; */
+    align-items: center;
 }
 
 .home .right h1 {
@@ -68,7 +69,19 @@ header img {
     cursor: pointer;
     font-weight: bold;
     width: 80%;
-    margin: auto;
+    /* margin: auto; */
+    /* transition: 1s; */
+}
+
+.btn-top {
+    display: block;
+    position: fixed;
+    left: 50%;
+    top: 0;
+    z-index: 10;
+    max-width: 30%;
+    margin-left: 2vh;
+    margin-top: 1vh;
 }
 
 .home .right p {

@@ -13,6 +13,11 @@ export default function initAnimationScroll() {
                 section.querySelector('.scroll').classList.remove('fadeout')
             }
         })
+
+        if(document.querySelector('.home .right').getBoundingClientRect().bottom - (window.innerHeight * 0.15) < 0 ) {
+            document.querySelector('.button').classList.add('btn-top')
+        }
+        else {document.querySelector('.button').classList.remove('btn-top')}
     }
     
     window.addEventListener('scroll', animaScroll);
