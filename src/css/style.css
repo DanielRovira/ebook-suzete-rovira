@@ -1,7 +1,9 @@
-
+:root {
+    --background: rgba(198, 96, 249, 0.543);
+}
 
 body{
-    background-color: rgba(198, 96, 249, 0.543);
+    background-color: var(--background);
 }
 
 header {
@@ -130,8 +132,24 @@ header img {
 
 
 .about .right img {
-    width: 100%;
+    width: 80%;
     margin: auto;
     border-radius: 20px;
 }
 
+.comments {
+    min-height: 50vh;
+    background-color: white;
+}
+
+.comments .section {
+    background-color: var(--background);
+    height: 500px;
+    padding-top: 5vh;
+    margin-top: 5vh;
+}
+
+.comments h1 {
+    font-size: 5vh;
+    text-align: center;
+}
