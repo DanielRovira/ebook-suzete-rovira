@@ -28,7 +28,7 @@
   
 .scroll a {
     display: inline-block;
-    font-size: 3vh;
+    font-size: 1.2rem;
     color: var(--font);
     margin-left: 1vw;
     text-shadow: 5px 3px 10px black;

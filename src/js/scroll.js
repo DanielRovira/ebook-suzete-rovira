@@ -1,8 +1,11 @@
 export default function initAnimationScroll() {
     const sections = document.querySelectorAll("[data-anime='js-scroll']");
+    var dist
+    if (window.matchMedia('(max-width: 600px), (max-height: 700px)').matches){
+        dist = 0.1} else {dist = 0.15}
 
     function animaScroll() {
-        sections.forEach((section) => {
+        sections.forEach((section) => {  
             const halfSection = window.innerHeight * 0.5;
             const sectionTop = section.getBoundingClientRect().top;
             if(sectionTop - halfSection < 0) {
@@ -14,10 +17,10 @@ export default function initAnimationScroll() {
             }
         })
 
-        if(document.querySelector('.home .right').getBoundingClientRect().bottom - (window.innerHeight * 0.15) < 0 ) {
-            document.querySelector('.button').classList.add('btn-top')
+        if(document.querySelector('.home .right').getBoundingClientRect().bottom - (window.innerHeight * dist) < 0 ) {
+            document.querySelector('.button').getElementsByTagName('button')[0].classList.add('btn-top')
         }
-        else {document.querySelector('.button').classList.remove('btn-top')}
+        else {document.querySelector('.button').getElementsByTagName('button')[0].classList.remove('btn-top')}
     }
     
     window.addEventListener('scroll', animaScroll);

@@ -1,24 +1,6 @@
-:root {
-    --background: rgba(198, 96, 249, 0.543);
-}
 
-body{
-    background-color: var(--background);
-}
 
-header {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-
-}
-
-header img {
-    margin: 10px;
-    height: fit-content;
-    border-radius: 100%;
-    height: 10vh;
-}
+/* HOME */
 
 .home {
     display: flex;
@@ -49,28 +31,35 @@ header img {
 }
 
 .home .right h1 {
-    font-size: 5vh;
+    font-size: 2rem;
     text-align: center;
     /* margin-bottom: 50px; */
 }
 
 .home .right h2 {
-    font-size: 3vh;
+    font-size: 1.2rem;
     margin: 2vh;
     max-width: 100%;
 }
 
 .home .button {
-    font-size: 5vh;
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    height: 3rem;
+}
+
+.home .button button {
+    font-size: 2rem;
     background-color: mediumpurple;
     padding: 1vh;
     border-radius: 30px;
     border: 0;
     cursor: pointer;
     font-weight: bold;
-    width: 80%;
     /* margin: auto; */
     /* transition: 1s; */
+    height: fit-content;
 }
 
 .btn-top {
@@ -87,8 +76,10 @@ header img {
 .home .right p {
     margin: 5px;
     text-align: center;
-    font-size: 3vh;
+    font-size: 1.2rem;
 }
+
+/* ABOUT */
 
 .about {
     background-color: white;
@@ -98,21 +89,6 @@ header img {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.about .scroll-container {
-    width: 50vw;
-    display: flex;
-}
-
-.about .spacing {
-    width: 50%;
-}
-
-.about .scroll {
-    width: 50%;
-    justify-content: left;
-    margin-left: 5vh;
 }
 
 .about .section {
@@ -127,13 +103,13 @@ header img {
 }
 
 .about .description h1 {
-    font-size: 5vh;
+    font-size: 2rem;
     text-align: center;
     margin: 0 0 20px;
 }
 
 .about .description h2 {
-    font-size: 2.5vh;
+    font-size: 1.2rem;
     text-align: justify;
 }
 
@@ -148,7 +124,10 @@ header img {
     width: 80%;
     margin: auto;
     border-radius: 20px;
+    box-shadow: 5px 5px 20px;
 }
+
+/* COMMENTS */
 
 .comments {
     min-height: 50vh;
@@ -163,6 +142,6 @@ header img {
 }
 
 .comments h1 {
-    font-size: 5vh;
+    font-size: 2rem;
     text-align: center;
 }
