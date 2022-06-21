@@ -1,0 +1,72 @@
+[data-anime="js-scroll"] .section {
+    opacity: 0;
+    transform: translate3d(0, 0, 0);
+    transition: .7s;
+}
+
+[data-anime="js-scroll"] .section.animation {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+}
+
+.fadeout {
+    opacity: 0;
+    pointer-events: none;
+    transition: .7s;
+}
+
+.scroll {
+    display: flex;
+    font-weight: bold;
+    letter-spacing: 2px;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+    width: 100%;
+    transition: .7s;
+}
+  
+.scroll a {
+    display: inline-block;
+    font-size: 1.2rem;
+    color: var(--font);
+    margin-left: 20px;
+    text-shadow: 5px 3px 10px black;
+}
+
+.scroll b {
+    color: var(--font);
+    margin-left: 5px;
+    animation: scroll-down 3s infinite forwards;
+    transform: rotate(90deg);
+}
+
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes scroll-down {
+    0% {
+      opacity: 0;
+      transform: rotate(90deg);
+      margin-top: -30px;
+    }
+
+    30% {
+      opacity: 0;
+    }
+    
+    60% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      margin-top: 10px;
+    }
+}

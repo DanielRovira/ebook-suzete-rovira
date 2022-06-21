@@ -1,0 +1,15 @@
+html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    /* letter-spacing: 1px; */
+    /* background-color: var(--background); */
+    overflow-x: hidden;
+    animation: fadeInOpacity 2s ease-out;
+    animation-fill-mode: backwards;
+    animation-delay: .25s;
+}
