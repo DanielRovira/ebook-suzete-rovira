@@ -1,3 +1,29 @@
+@media (max-width: 1300px) {
+    .about {
+        margin-top: -10vh;
+        padding-top: 10vh;
+    }
+
+    .about .section {
+        max-width: 80vw;
+        flex-direction: column;
+        gap: 2vh;
+    }
+
+    .about .right {
+        order: -1;
+        margin: auto;
+    }
+
+    .about .left {
+        width: 100%;
+    }
+    
+    .btn-top {
+        max-width: none;
+    }
+}
+
 @media (max-width: 920px) {
     html {
         font-size: 2vh;
@@ -59,23 +85,22 @@
         height: 3.5rem;
     }
 
+    .home .button button {
+        font-size: 2rem;
+    }
 
     .btn-top {
         left: 50%;
         max-width: 100%;
+        width: 54vw;
         margin-left: 0;
         margin-top: none;
         transform: translateX(-50%)
     }
 
-    .about {
-        margin-top: -10vh;
-        padding-top: 10vh;
-    }
     .about .section {
         max-width: 80vw;
         flex-direction: column;
-        margin: 0;
         gap: 2vh;
         margin-top: -5vh;
     }
