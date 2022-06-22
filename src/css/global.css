@@ -72,7 +72,7 @@ footer {
     padding: 10px;
     height: fit-content;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: row;
 }
 
@@ -87,6 +87,7 @@ footer .links {
     justify-content: center;
     gap: 10px;
     height: fit-content;
+    margin-left: -5vw;
 }
 
 footer img {
