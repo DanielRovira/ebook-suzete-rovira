@@ -115,6 +115,11 @@
         width: 100%;
     }
 
+    .comments .section {
+        padding-top: 0vh;
+        margin-top: 0vh;
+    }
+
     .comments ul {
         flex-direction: column;
     }
@@ -127,7 +132,14 @@
         gap: 5vw;
     }
 
-
+    footer {
+        flex-direction: column;
+        gap: 0;
+    }
+    
+    footer p {
+        text-align: center;
+    }
 
 
 }

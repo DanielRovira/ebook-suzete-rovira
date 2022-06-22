@@ -3,6 +3,7 @@
 /* HOME */
 
 .home {
+    background-image: var(--background-gradient);
     display: flex;
     justify-content: center;
     height: 80vh;
@@ -109,7 +110,7 @@
 }
 
 .about .description h2 {
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-align: justify;
 }
 
@@ -135,8 +136,8 @@
 }
 
 .comments .section {
-    background-color: var(--background);
-    height: 500px;
+    /* background-color: var(--background); */
+    background-image: var(--background-gradient);
     padding-top: 5vh;
     margin-top: 5vh;
 }
