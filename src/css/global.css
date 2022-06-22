@@ -118,4 +118,5 @@ footer .links img:hover {
 footer div, footer div2 {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
