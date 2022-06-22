@@ -143,6 +143,10 @@
 
 /* QUESTIONS */
 
+#questions {
+    scroll-margin-top: -5vh;
+}
+
 .questions {
     display: flex;
     flex-direction: column;
@@ -152,6 +156,8 @@
 
 .questions .separator {
     display: flex;
+    flex-direction: row;
+    margin: auto;
 }
 
 .questions h1 {
@@ -160,10 +166,10 @@
     padding: 2vh;
 }
 
-.questions .section {
+.questions .sec {
+    display: flex;
+    flex-direction: column;
     max-width: 60vw;
-    margin: auto;
-    padding: 1vh;
 }
 
 .questions h2 {
@@ -172,7 +178,7 @@
 
 .questions p {
     margin: 1vh;
-    margin-bottom: 5vh;
+    margin-bottom: 4vh;
     font-size: 1.2rem;
 }
 
@@ -180,6 +186,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: auto;
 }
 
 .questions .more img {
