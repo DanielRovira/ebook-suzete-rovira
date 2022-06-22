@@ -89,12 +89,8 @@
     }
 
     .btn-top {
-        left: 50%;
         max-width: 100%;
-        width: 54vw;
-        margin-left: 0;
         margin-top: none;
-        transform: translateX(-50%)
     }
 
     .about .section {
@@ -133,6 +129,10 @@
 
     .comments ul li img {
         height: 30vw;
+    }
+
+    .questions .separator {
+        flex-direction: column;
     }
 
     .questions .more img {

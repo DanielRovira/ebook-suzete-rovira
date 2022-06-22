@@ -37,7 +37,6 @@ body {
 
 .button {
     display: flex;
-    width: 80%;
     justify-content: center;
     height: 3rem;
 }
