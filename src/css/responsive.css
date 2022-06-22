@@ -60,6 +60,10 @@
         scroll-margin-top: -5vh;
     }
 
+    #comments {
+        scroll-margin-top: -1vh;
+    }
+
     .bodyHeader img {
         margin: 5px 0 10px;
         height: 6vh;
@@ -120,8 +124,8 @@
     }
 
     .comments .section {
-        padding-top: 0vh;
-        margin-top: 0vh;
+        padding-top: 3vh;
+        margin-top: 3vh;
     }
 
     .comments ul {
