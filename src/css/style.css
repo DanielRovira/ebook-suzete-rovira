@@ -191,7 +191,7 @@
 
 .questions .more img {
     height: 10vw;
-    margin: auto;
+    margin: -2.5vh;
     transition: .2s;
     filter: grayscale(30%);
 }
