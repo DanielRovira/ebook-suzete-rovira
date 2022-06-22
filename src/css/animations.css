@@ -71,3 +71,8 @@
       margin-top: 10px;
     }
 }
+
+@keyframes hover {
+    0% {transform: scale(1);}
+    to {transform: scale(1.05);}
+}

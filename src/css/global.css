@@ -61,12 +61,12 @@ body {
     /* margin: auto; */
     /* transition: 1s; */
     height: fit-content;
-    transition: .15s;
+    /* transition: .15s; */
     filter: grayscale(15%);
 }
 
 .button button:hover {
-    transform: scale(1.05);
+    animation: hover .15s forwards;
     filter: none;
 }
 
