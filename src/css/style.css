@@ -175,7 +175,10 @@
 /* QUESTIONS */
 
 .questions {
+    display: flex;
+    flex-direction: column;
     background-color: rgba(224, 224, 224, 0.388);
+    align-items: center;
 }
 
 .questions h1 {
@@ -197,4 +200,15 @@
 .questions p {
     margin: 1vh;
     margin-bottom: 5vh;
+}
+
+.questions .more {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.questions .more img {
+    height: 10vw;
+    margin: auto;
 }

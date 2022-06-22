@@ -136,6 +136,10 @@
         height: 30vw;
     }
 
+    .questions .more img {
+        height: 10vh;
+    }
+
     footer {
         flex-direction: column;
         gap: 0;
