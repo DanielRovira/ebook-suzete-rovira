@@ -138,7 +138,7 @@
 .comments .section {
     /* background-color: var(--background); */
     background-image: var(--background-gradient);
-    padding-top: 5vh;
+    padding: 5vh;
     margin-top: 5vh;
 }
 
