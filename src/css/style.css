@@ -171,3 +171,30 @@
     font-size: 1.3rem;
     color: orangered;
 }
+
+/* QUESTIONS */
+
+.questions {
+    background-color: rgba(224, 224, 224, 0.388);
+}
+
+.questions h1 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 2vh;
+}
+
+.questions .section {
+    max-width: 60vw;
+    margin: auto;
+    padding: 1vh;
+}
+
+.questions h2 {
+    font-size: 1.2rem;
+}
+
+.questions p {
+    margin: 1vh;
+    margin-bottom: 5vh;
+}

@@ -132,6 +132,10 @@
         gap: 5vw;
     }
 
+    .comments ul li img {
+        height: 30vw;
+    }
+
     footer {
         flex-direction: column;
         gap: 0;
@@ -139,6 +143,14 @@
     
     footer p {
         text-align: center;
+    }
+
+    footer .links {
+        order: -1;
+    }
+
+    footer div2 {
+        order: 1;
     }
 
 

@@ -1,8 +1,12 @@
 :root {
     --background: rgba(198, 96, 249, 0.543);
     --background-gradient: linear-gradient(to top, rgba(198, 96, 249, 0.543), white);
-
+    --font: rgb(50, 50, 50);
     
+}
+
+* {
+    color: var(--font);
 }
 
 html {
@@ -12,7 +16,7 @@ html {
 }
 
 body {
-    font-family: "Inter", sans-serif;
+    font-family: "Raleway", sans-serif;
     /* letter-spacing: 1px; */
     /* background-color: var(--background); */
     overflow-x: hidden;
@@ -46,11 +50,8 @@ footer {
     padding: 15px;
     height: fit-content;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: row;
-    width: 100vw;
-    gap: 40vw;
 }
 
 footer p {
@@ -66,7 +67,7 @@ footer .links {
     gap: 10px;
 }
 
-footer img, .links img {
+footer img {
     height: 50px;
     width: 50px;
     border: 100px;
@@ -74,7 +75,7 @@ footer img, .links img {
     filter: grayscale(50%);
 }
 
-footer .links img:hover, .links img:hover {
+footer .links img:hover {
     transform: scale(1.1);
     filter: none;
 }
