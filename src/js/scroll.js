@@ -18,9 +18,9 @@ export default function initAnimationScroll() {
         })
 
         if(document.querySelector('.home .right').getBoundingClientRect().bottom - (window.innerHeight * dist) < 0 ) {
-            document.querySelector('.button').getElementsByTagName('button')[0].classList.add('btn-top')
+            document.querySelector('.home .button').getElementsByTagName('button')[0].classList.add('btn-top')
         }
-        else {document.querySelector('.button').getElementsByTagName('button')[0].classList.remove('btn-top')}
+        else {document.querySelector('.home .button').getElementsByTagName('button')[0].classList.remove('btn-top')}
     }
     
     window.addEventListener('scroll', animaScroll);
