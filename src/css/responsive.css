@@ -152,6 +152,7 @@
 
     footer .links {
         order: -1;
+        margin-left: 0;
     }
 
     footer div2 {
