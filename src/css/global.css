@@ -61,6 +61,13 @@ body {
     /* margin: auto; */
     /* transition: 1s; */
     height: fit-content;
+    transition: .15s;
+    filter: grayscale(15%);
+}
+
+.button button:hover {
+    transform: scale(1.05);
+    filter: none;
 }
 
 .btn-top {
@@ -76,7 +83,7 @@ body {
 
 footer {
     position: relative;
-    padding: 15px;
+    padding: 10px;
     height: fit-content;
     display: flex;
     justify-content: space-between;
@@ -85,7 +92,6 @@ footer {
 
 footer p {
     font-size: 1rem;
-    margin: 10px;
     text-align: right;
 }
 
@@ -94,17 +100,22 @@ footer .links {
     align-items: center;
     justify-content: center;
     gap: 10px;
+    height: fit-content;
 }
 
 footer img {
     height: 50px;
     width: 50px;
-    border: 100px;
     transition: .2s;
-    filter: grayscale(50%);
+    filter: grayscale(30%);
 }
 
 footer .links img:hover {
     transform: scale(1.1);
     filter: none;
+}
+
+footer div, footer div2 {
+    display: flex;
+    align-items: center;
 }

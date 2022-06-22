@@ -180,4 +180,11 @@
 .questions .more img {
     height: 10vw;
     margin: auto;
+    transition: .2s;
+    filter: grayscale(30%);
+}
+
+.questions .more img:hover {
+    transform: scale(1.1);
+    filter: none;
 }
