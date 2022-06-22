@@ -115,6 +115,19 @@
         width: 100%;
     }
 
+    .comments ul {
+        flex-direction: column;
+    }
+
+    .comments ul li {
+        width: 80vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 5vw;
+    }
+
+
 
 
 }
