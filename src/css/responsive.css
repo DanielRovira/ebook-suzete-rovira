@@ -1,4 +1,9 @@
 @media (max-width: 1300px) {
+
+    #about {
+        scroll-margin-top: 0;
+    }
+
     .about {
         margin-top: -12vh;
         padding-top: 11vh;
@@ -49,6 +54,10 @@
 @media (max-width: 600px) {
     html {
         font-size: 3.2vw;
+    }
+
+    #about {
+        scroll-margin-top: -5vh;
     }
 
     .bodyHeader img {

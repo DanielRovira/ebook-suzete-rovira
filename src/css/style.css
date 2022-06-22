@@ -45,6 +45,10 @@
 
 /* ABOUT */
 
+#about {
+    scroll-margin-top: -25vh;
+}
+
 .about {
     background-color: white;
     margin-top: -23vh;
@@ -84,7 +88,7 @@
 }
 
 .about .right img {
-    width: 80%;
+    width: 100%;
     margin: auto;
     border-radius: 20px;
     box-shadow: 5px 5px 20px;
