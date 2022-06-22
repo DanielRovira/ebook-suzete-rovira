@@ -131,6 +131,14 @@
         height: 30vw;
     }
 
+    .comments ul li p {
+        margin-top: -5vh;
+    }
+
+    .questions .section {
+        max-width: 80vw;
+    }
+
     .questions .separator {
         flex-direction: column;
     }

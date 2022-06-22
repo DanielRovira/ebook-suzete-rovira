@@ -73,7 +73,7 @@
 }
 
 .about .description h2 {
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-align: justify;
 }
 
@@ -129,8 +129,12 @@
 }
 
 .comments ul li h1 {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     color: orangered;
+}
+
+.comments ul li p {
+    font-size: 1.2rem;
 }
 
 /* QUESTIONS */
@@ -159,12 +163,13 @@
 }
 
 .questions h2 {
-    font-size: 1.2rem;
+    font-size: 1.35rem;
 }
 
 .questions p {
     margin: 1vh;
     margin-bottom: 5vh;
+    font-size: 1.2rem;
 }
 
 .questions .more {
