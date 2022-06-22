@@ -60,9 +60,10 @@
         scroll-margin-top: -5vh;
     }
 
-    #comments {
+    #comments, #questions {
         scroll-margin-top: -1vh;
     }
+    
 
     .bodyHeader img {
         margin: 5px 0 10px;
